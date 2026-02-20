@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IqoriumAI — IQtive Acceleration Program</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- NAV -->
+    <nav>
+      <div class="nav-logo">IQ<span>orium.</span>ai</div>
+      <ul class="nav-links">
+        <li><a href="#program">Program</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+      <button
+        class="nav-cta"
+        onclick="
+          scrollTo({
+            top: document.getElementById('cta').offsetTop,
+            behavior: 'smooth',
+          })
+        "
+      >
+        Book Demo
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="hero-tag">NEP 2020 Aligned Program</div>
+        <h1>Make Students <em>Think</em> Beyond Textbooks</h1>
+        <p class="hero-sub">
+          A daily 7-minute IQtive Acceleration Program for Classes 4–8. No extra
+          burden. No syllabus change. Just sharper minds.
+        </p>
+        <div class="hero-actions">
+          <a href="#cta" class="btn-primary">Book Free Demo</a>
+          <a href="#program" class="btn-outline">See Program →</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num">7 min</div>
+            <div class="stat-label">Daily Session</div>
+          </div>
+          <div>
+            <div class="stat-num">5–8</div>
+            <div class="stat-label">Classes Covered</div>
+          </div>
+          <div>
+            <div class="stat-num">90%</div>
+            <div class="stat-label">Renewal Rate</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img
+          src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=900&q=80"
+          alt="Students learning"
+        />
+        <div class="hero-badge">
+          <strong>CAP</strong>
+          <span>IQtive Acceleration Program</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-wrap">
+      <div class="marquee-track">
+        <span class="marquee-item">Space Mysteries</span>
+        <span class="marquee-item">Animal Psychology</span>
+        <span class="marquee-item">Real World Physics</span>
+        <span class="marquee-item">Economic Intelligence</span>
+        <span class="marquee-item">Logic Puzzles</span>
+        <span class="marquee-item">Brain Challenges</span>
+        <span class="marquee-item">Curiosity Training</span>
+        <span class="marquee-item">Critical Thinking</span>
+        <span class="marquee-item">Space Mysteries</span>
+        <span class="marquee-item">Animal Psychology</span>
+        <span class="marquee-item">Real World Physics</span>
+        <span class="marquee-item">Economic Intelligence</span>
+        <span class="marquee-item">Logic Puzzles</span>
+        <span class="marquee-item">Brain Challenges</span>
+        <span class="marquee-item">Curiosity Training</span>
+        <span class="marquee-item">Critical Thinking</span>
+      </div>
+    </div>
+
+    <!-- PROBLEM -->
+    <section class="problem">
+      <div class="section-label">The Problem</div>
+      <h2>Marks Don't<br />Mean Mastery</h2>
+      <div class="problem-grid">
+        <div class="problem-img reveal">
+          <img
+            src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&q=80"
+            alt="Students studying"
+          />
+        </div>
+        <div class="problem-points">
+          <div class="problem-point reveal">
+            <div class="pp-icon">📚</div>
+            <div>
+              <div class="pp-title">Memorising Without Understanding</div>
+              <div class="pp-desc">
+                Students rote-learn for exams but can't apply knowledge to
+                real-world problems or novel questions.
+              </div>
+            </div>
+          </div>
+          <div class="problem-point reveal">
+            <div class="pp-icon">🧩</div>
+            <div>
+              <div class="pp-title">Weak Logical Reasoning</div>
+              <div class="pp-desc">
+                Olympiads and competitive exams demand analytical thinking that
+                the standard curriculum simply doesn't build.
+              </div>
+            </div>
+          </div>
+          <div class="problem-point reveal">
+            <div class="pp-icon">💡</div>
+            <div>
+              <div class="pp-title">Curiosity is Untrained</div>
+              <div class="pp-desc">
+                Children are naturally curious, but school systems don't have
+                structured time to develop this into a skill.
+              </div>
+            </div>
+          </div>
+          <div class="problem-point reveal">
+            <div class="pp-icon">📊</div>
+            <div>
+              <div class="pp-title">No Visibility for Teachers</div>
+              <div class="pp-desc">
+                Educators can't identify gifted students or those needing
+                support without time-consuming individual testing.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section id="program">
+      <div class="section-label">The Program</div>
+      <h2>One Module.<br />One Powerful Idea.<br />Every Day.</h2>
+      <div class="program-intro">
+        <p>
+          Students open the app and receive one short, beautifully crafted
+          7-minute module. Topics rotate across science, space, economics, and
+          logic — building curiosity and analytical thinking without adding to
+          their workload.
+        </p>
+      </div>
+      <div class="week-grid">
+        <div class="day-card reveal">
+          <span class="day-emoji">🌌</span>
+          <div class="day-name">Monday</div>
+          <div class="day-topic">Why do black holes bend light?</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">🐙</span>
+          <div class="day-name">Tuesday</div>
+          <div class="day-topic">Why do octopuses escape jars?</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">✈️</span>
+          <div class="day-name">Wednesday</div>
+          <div class="day-topic">How do planes fly upside down?</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">💰</span>
+          <div class="day-name">Thursday</div>
+          <div class="day-topic">Why do rich people take loans?</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">🔍</span>
+          <div class="day-name">Friday</div>
+          <div class="day-topic">Logic puzzle: Find the lie</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">🌍</span>
+          <div class="day-name">Saturday</div>
+          <div class="day-topic">Real world problem challenge</div>
+        </div>
+        <div class="day-card reveal">
+          <span class="day-emoji">⚡</span>
+          <div class="day-name">Sunday</div>
+          <div class="day-topic">Brain speed challenge</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+      <div class="section-label">Platform Features</div>
+      <h2>Not Just Content.<br />A Complete Intelligence System.</h2>
+      <div class="features-grid">
+        <div class="feature-card reveal">
+          <span class="feature-icon">🎓</span>
+          <div class="feature-title">Student Learning Engine</div>
+          <div class="feature-desc">
+            Daily smart modules designed for deep curiosity, not surface
+            memorisation.
+          </div>
+          <ul class="feature-list">
+            <li>Daily 7-minute smart lesson</li>
+            <li>One powerful thinking question</li>
+            <li>Weekly IQ challenge</li>
+            <li>Curiosity leaderboard</li>
+            <li>Explorer & Thinker badges</li>
+          </ul>
+        </div>
+        <div class="feature-card accent-card reveal">
+          <span class="feature-icon">📊</span>
+          <div class="feature-title">Teacher Analytics Dashboard</div>
+          <div class="feature-desc">
+            See which students think independently. Identify gifted learners and
+            those needing attention — without extra workload.
+          </div>
+          <ul class="feature-list">
+            <li>Participation % per class</li>
+            <li>Curiosity score per student</li>
+            <li>Fast vs slow learner insights</li>
+            <li>Logical reasoning tracker</li>
+            <li>Weekly class report</li>
+          </ul>
+        </div>
+        <div class="feature-card dark-card reveal">
+          <span class="feature-icon">👨‍👩‍👧</span>
+          <div class="feature-title">Parent Engagement Portal</div>
+          <div class="feature-desc">
+            Turn screen time into educational proof. Parents see measurable
+            IQtive growth — increasing school trust and satisfaction.
+          </div>
+          <ul class="feature-list">
+            <li>Weekly IQtive report card</li>
+            <li>Thinking improvement graph</li>
+            <li>Milestone notifications</li>
+            <li>Progress comparison</li>
+            <li>Session completion alerts</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section id="how">
+      <div class="section-label">How It Works</div>
+      <h2>Zero Disruption.<br />Maximum Impact.</h2>
+      <div class="how-grid">
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h3>School Onboarding</h3>
+              <p>
+                School receives a unique code. Teachers and students register in
+                minutes. No IT setup required.
+              </p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h3>Students Access Daily Module</h3>
+              <p>
+                Each student logs in with the school code. A new 7-minute module
+                appears every day — no scheduling needed.
+              </p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h3>Teachers Monitor Live</h3>
+              <p>
+                Dashboard updates in real time. Teachers see engagement,
+                reasoning quality, and participation at a glance.
+              </p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h3>Monthly Reports to School</h3>
+              <p>
+                School receives comprehensive IQtive analytics reports. Parents
+                receive individual child growth summaries.
+              </p>
+            </div>
+          </div>
+          <div class="step reveal">
+            <div class="step-num">05</div>
+            <div class="step-content">
+              <h3>Smarter Students. Stronger Brand.</h3>
+              <p>
+                Students think better. School demonstrates modern, skill-based
+                education to parents and stakeholders.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="how-visual reveal">
+          <img
+            class="how-img"
+            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=700&q=80"
+            alt="Classroom engagement"
+          />
+          <div class="how-card">
+            <strong>NEP<br />2020</strong>
+            <span>Fully aligned with skill-based education framework</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEP -->
+    <section class="nep">
+      <div class="nep-inner">
+        <div>
+          <div
+            class="section-label"
+            style="color: var(--ink); --accent: var(--ink)"
+          >
+            Policy Alignment
+          </div>
+          <h2>Built for NEP 2020 Schools</h2>
+          <p>
+            The National Education Policy 2020 mandates skill-based,
+            competency-focused education. IqoriumAI gives schools a ready-made,
+            structured system to demonstrate NEP compliance — without changing
+            their curriculum.
+          </p>
+          <div class="nep-tags">
+            <span class="nep-tag">Skill-Based Learning</span>
+            <span class="nep-tag">Holistic Development</span>
+            <span class="nep-tag">Competency Framework</span>
+            <span class="nep-tag">Activity-Based Learning</span>
+            <span class="nep-tag">Experiential Education</span>
+          </div>
+        </div>
+        <div class="nep-img reveal">
+          <img
+            src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&q=80"
+            alt="Modern education"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+      <div class="section-label">Pricing</div>
+      <h2>Simple Annual<br />Institutional Licensing</h2>
+      <div class="pricing-grid">
+        <div class="price-card reveal">
+          <div class="price-students">Up to 500 Students</div>
+          <div class="price-amount"><sup>₹</sup>25,000</div>
+          <div class="price-year">per year · single payment</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>Full student app access</li>
+            <li>Teacher dashboard</li>
+            <li>Parent progress reports</li>
+            <li>Monthly analytics</li>
+            <li>Email support</li>
+          </ul>
+          <a href="#cta" class="price-cta">Get Started</a>
+        </div>
+        <div class="price-card featured reveal">
+          <div class="price-students">Up to 1,000 Students</div>
+          <div class="price-amount"><sup>₹</sup>45,000</div>
+          <div class="price-year">per year · single payment</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>Everything in Starter</li>
+            <li>Olympiad prep mode</li>
+            <li>Custom school branding</li>
+            <li>Priority support</li>
+            <li>Quarterly review call</li>
+          </ul>
+          <a href="#cta" class="price-cta">Get Started</a>
+        </div>
+        <div class="price-card reveal">
+          <div class="price-students">Up to 2,000 Students</div>
+          <div class="price-amount"><sup>₹</sup>70,000</div>
+          <div class="price-year">per year · single payment</div>
+          <div class="price-divider"></div>
+          <ul class="price-features">
+            <li>Everything in Growth</li>
+            <li>AI explanation assistant</li>
+            <li>Voice narration modules</li>
+            <li>Dedicated account manager</li>
+            <li>Annual strategy review</li>
+          </ul>
+          <a href="#cta" class="price-cta">Get Started</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+      <div class="section-label">What Schools Say</div>
+      <h2>Built With Schools,<br />For Schools.</h2>
+      <div class="test-grid">
+        <div class="test-card reveal">
+          <div class="test-quote">"</div>
+          <p class="test-text">
+            Students who used IqoriumAI started asking better questions in
+            class. The curiosity shift was visible within weeks — something
+            textbooks couldn't achieve in years.
+          </p>
+          <div class="test-author">
+            <div class="test-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1494790108755-2616b612b04c?w=100&q=80"
+                alt="Principal"
+              />
+            </div>
+            <div>
+              <div class="test-name">Dr. Meera Sharma</div>
+              <div class="test-role">Principal, DPS Sector 45</div>
+            </div>
+          </div>
+        </div>
+        <div class="test-card reveal">
+          <div class="test-quote">"</div>
+          <p class="test-text">
+            The teacher dashboard is a game changer. I can now identify which
+            students have potential that their marks don't show. It's changed
+            how I teach.
+          </p>
+          <div class="test-author">
+            <div class="test-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=100&q=80"
+                alt="Teacher"
+              />
+            </div>
+            <div>
+              <div class="test-name">Rajesh Kapoor</div>
+              <div class="test-role">Science Teacher, CBSE School</div>
+            </div>
+          </div>
+        </div>
+        <div class="test-card reveal">
+          <div class="test-quote">"</div>
+          <p class="test-text">
+            As a parent, seeing weekly reports showing my daughter's thinking
+            improvement — not just marks — gave me real confidence in the
+            school. We renewed immediately.
+          </p>
+          <div class="test-author">
+            <div class="test-avatar">
+              <img
+                src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&q=80"
+                alt="Parent"
+              />
+            </div>
+            <div>
+              <div class="test-name">Priya Nair</div>
+              <div class="test-role">Parent, Class 6 Student</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" id="cta">
+      <h2>One Free Demo.<br />That's All It Takes.</h2>
+      <p>
+        Let us conduct a free IQtive Development Workshop for your students.
+        Watch their curiosity ignite — then decide if it belongs in your school.
+      </p>
+      <a
+        href="mailto:hello@IqoriumAI.in?subject=Free Demo Workshop Request"
+        class="btn-white"
+        >Request Free Demo Workshop</a
+      >
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="nav-logo" style="color: #fff">
+            IQ<span style="color: var(--accent)">orium</span>
+          </div>
+          <p>
+            Smarter students. Stronger school reputation. A daily 7-minute
+            IQtive acceleration program for Classes 4–8.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Program</h4>
+          <a href="#program">Daily Modules</a>
+          <a href="#features">Teacher Dashboard</a>
+          <a href="#features">Parent Reports</a>
+          <a href="#how">How It Works</a>
+        </div>
+        <div class="footer-col">
+          <h4>Schools</h4>
+          <a href="#pricing">Pricing</a>
+          <a href="#cta">Book Demo</a>
+          <a href="#">Case Studies</a>
+          <a href="#">NEP Alignment</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:hello@IqoriumAI.in">hello@IqoriumAI.in</a>
+          <a href="tel:+919999999999">+91 99999 99999</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 IqoriumAI. All rights reserved.</span>
+        <span>Designed for India's NEP 2020 schools</span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
