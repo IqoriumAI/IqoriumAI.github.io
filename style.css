@@ -468,8 +468,9 @@ h2 {
 }
 .week-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1rem;
+  justify-content: center;
 }
 .day-card {
   background: var(--soft);
